@@ -1,7 +1,7 @@
 [package]
 name = "imgui-rs-d3d12-renderer"
-version = "0.0.2"
-authors = ["Changseo Jang <changseo.jang@riiid.co>"]
+version = "0.0.3"
+authors = ["Changseo Jang <changseo_jang@korea.ac.kr>"]
 edition = "2018"
 license = "MIT"
 description = "Use imgui-rs with d3d12"
