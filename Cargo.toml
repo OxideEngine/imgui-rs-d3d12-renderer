@@ -1,11 +1,13 @@
 [package]
-name = "imgui-rs-d3d12-renderer"
-version = "0.0.3"
 authors = ["Changseo Jang <changseo_jang@korea.ac.kr>"]
+description = "Use imgui-rs with d3d12"
 edition = "2018"
 license = "MIT"
-description = "Use imgui-rs with d3d12"
+name = "imgui-rs-d3d12-renderer"
+version = "0.0.3"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+d3d12-rs = "0.0.1"
+imgui = "0.7.0"

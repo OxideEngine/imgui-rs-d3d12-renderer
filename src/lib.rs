@@ -1,7 +1,10 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
+#[derive(Debug, Clone)]
+pub enum RendererError {}
+
+pub struct Renderer;
+
+impl Renderer {
+    pub fn init(ctx: &mut imgui::Context) -> Result<Renderer, RendererError> {
+        Ok(Renderer {})
     }
 }
